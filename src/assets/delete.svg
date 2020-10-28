@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>x-mark</title>
+    <defs>
+        <filter x="-5.1%" y="-5.3%" width="110.5%" height="112.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.423529 0 0 0 0 0.066667 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-264.000000, -394.000000)">
+            <g id="Scores" filter="url(#filter-1)" transform="translate(12.000000, 172.000000)">
+                <g filter="url(#filter-2)" id="x-mark">
+                    <g transform="translate(261.000000, 231.000000)">
+                        <path d="M10.5,21 C4.71022798,21 0,16.289772 0,10.5 C0,4.71022798 4.71022798,0 10.5,0 C16.289772,0 21,4.71022798 21,10.5 C21,16.289772 16.289772,21 10.5,21 Z M10.5,1.4999542 C5.53742979,1.4999542 1.4999542,5.53742979 1.4999542,10.5 C1.4999542,15.4625702 5.53742979,19.5000458 10.5,19.5000458 C15.4625702,19.5000458 19.5000458,15.4625702 19.5000458,10.5 C19.5000458,5.53742979 15.4625702,1.4999542 10.5,1.4999542 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                        <path d="M14.2500601,15 C14.058119,15 13.866178,14.9267803 13.7197388,14.7801806 L6.21977889,7.28020393 C5.92674037,6.98716476 5.92674037,6.51259827 6.21977889,6.21971931 C6.51265721,5.92684034 6.98738284,5.92668013 7.28026116,6.21971931 L14.7802211,13.7196959 C15.0732596,14.0127351 15.0732596,14.4873016 14.7802211,14.7801806 C14.6337819,14.9267803 14.4420011,15 14.2500601,15 L14.2500601,15 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                        <path d="M6.74994491,15 C6.55800261,15 6.36622051,14.9267808 6.21978036,14.780182 C5.92673988,14.487305 5.92673988,14.0125815 6.21978036,13.7197045 L13.7197904,6.21977791 C14.0128308,5.9267407 14.4873994,5.9267407 14.7802797,6.21977791 C15.07316,6.51265492 15.0733202,6.98737845 14.7802797,7.28025546 L7.2802697,14.780182 C7.13382959,14.9267808 6.94188725,15 6.74994491,15 L6.74994491,15 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
